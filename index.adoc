@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: The Ransomware Protection service enables you to view relevant information about cybersecurity and assess how resilient your data is to a cyber attack. 
+summary: 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 보고 데이터가 사이버 공격에 얼마나 복원되는지 평가할 수 있습니다. 
+---
+= 랜섬웨어 보호 문서
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

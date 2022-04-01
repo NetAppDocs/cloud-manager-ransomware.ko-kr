@@ -1,0 +1,61 @@
+---
+settings:
+  name: Ransomware Protection
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,ja-jp,zh-cn
+sidebar:
+  entries:
+  - title: 모든 Cloud Manager 설명서
+    url: https://docs.netapp.com/us-en/cloud-manager-family
+  - title: 랜섬웨어 보호 문서
+    url: "/index.html"
+  - title: 릴리스 정보
+    url: "/whats-new.html"
+  - title: 시작하십시오
+    entries:
+    - title: 랜섬웨어 차단 에 대해 알아보십시오
+      url: "/concept-ransomware-protection.html"
+  - title: 랜섬웨어 차단 기능을 사용하십시오
+    entries:
+    - title: 데이터에 대한 사이버 보안 권장사항을 관리합니다
+      url: "/task-analyze-ransomware-data.html"
+  - title: 지식 및 지원
+    entries:
+    - title: 지원을 위해 등록하십시오
+      url: "/task-support-registration.html"
+    - title: 도움을 받으십시오
+      url: "/task-get-help.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: 랜섬웨어 차단 에 대해 알아보십시오
+      url: concept-ransomware-protection.html
+    - title: 새로운 기능
+      url: whats-new.html
+  - title: 사이버 보안 권장 사항 관리
+    links:
+    - title: 데이터 민감도를 기준으로 상위 데이터 리포지토리를 봅니다
+      url: task-analyze-ransomware-data.html#top-data-repositories-by-data-sensitivity
+    - title: 도메인 관리자 그룹에 추가된 사용자를 봅니다
+      url: task-analyze-ransomware-data.html#domain-administrator-group-control
+    - title: 열려 있는 권한으로 나열된 데이터를 봅니다
+      url: task-analyze-ransomware-data.html#data-listed-by-types-of-open-permissions
+    - title: 암호화된 파일로 나열된 데이터를 봅니다
+      url: task-analyze-ransomware-data.html#data-listed-by-encrypted-files
+  - title: 블로그 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Cloud Central 블로그
+      url: https://cloud.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://cloud.netapp.com/events
+product-family: {}
