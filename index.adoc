@@ -7,6 +7,7 @@ summary: 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관�
 ---
 = 랜섬웨어 보호 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

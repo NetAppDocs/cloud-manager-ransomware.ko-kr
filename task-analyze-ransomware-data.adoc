@@ -6,6 +6,7 @@ summary: 랜섬웨어 보호 대시보드를 사용하여 모든 작업 환경 �
 ---
 = 데이터 원본에 대한 사이버 보안 권장 사항 관리
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
