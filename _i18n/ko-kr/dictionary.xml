@@ -2,25 +2,13 @@
 <blocks>
   <block id="d759e97ebb04097c8dee30fc845cc996" category="summary">랜섬웨어 차단의 새로운 기능에 대해 알아보십시오.</block>
   <block id="ca151642aca499fd94ee2307ea084a75" category="doc">랜섬웨어 차단의 새로운 기능</block>
-  <block id="08abc76a49b9efe7014212c98d534e6d" category="section-title">2021년 4월 5일</block>
-  <block id="55a52ff3da54b1be61be4ffbf282e94a" category="section-title">ONTAP 환경의 보안 강화를 추적하는 새 패널.</block>
-  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오</block>
-  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP의 랜섬웨어 방지 기능</block>
-  <block id="c0920e0c17ca7e741f375b33ea0a761b" category="paragraph">새로운 "ONTAP 환경 보호" 패널은 ONTAP 시스템의 특정 설정 상태를 제공하여 에 따른 배포 보안을 추적합니다<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 로 이동합니다<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
   <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">자세한 내용을 보려면 여기를 클릭하십시오</block>
-  <block id="d1cc60fc49a33e0ae7d36cae499efb4f" category="paragraph">권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. <block ref="00ea4aec7331e5df57914a41d75be7a8" category="inline-link-macro-rx"></block>.</block>
-  <block id="76553642514a4b204c12afe14df42e92" category="section-title">클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다.</block>
-  <block id="14a55b39be461472bba9909669aa45c0" category="paragraph">이 새로운 "백업 상태" 패널은 랜섬웨어 공격으로 인해 복구해야 할 경우에 대비하여 가장 중요한 데이터 범주를 포괄적으로 백업하는 방법을 보여줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다.</block>
-  <block id="02b53084641511d7c2b0f7b7b494c38a" category="section-title">2022년 3월 15일</block>
   <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">비즈니스 크리티컬 데이터의 사용 권한 상태를 추적할 수 있는 새 패널입니다</block>
-  <block id="45c9cbfc62a358ed88da671670148ce0" category="paragraph">새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다. <block ref="c07bc80d4be5873f25bb0a279dd82cd2" category="inline-link-macro-rx"></block>.</block>
   <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">이제 사용 권한 열기 영역에 OneDrive 및 SharePoint 계정이 포함됩니다</block>
   <block id="52a3db95e0c303b6251e8f60de3b3f3d" category="paragraph">이제 랜섬웨어 보호 대시보드의 개방형 권한 영역에 OneDrive 계정 및 SharePoint 계정에서 스캔되는 파일에 대한 사용 권한이 포함됩니다.</block>
-  <block id="9fe54dabf8677a2dd216b421ca613a20" category="section-title">2022년 2월 9일</block>
   <block id="67ecb98d51fb7fee47f7f4c979becfa6" category="section-title">새로운 랜섬웨어 보호 서비스</block>
   <block id="c05006d715a916b10a4f130817c81c90" category="paragraph">새로운 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 확인하고 데이터가 사이버 공격에 얼마나 복원되는지 평가할 수 있습니다. 또한 알림 목록과 데이터 보안 개선을 위한 해결 방법도 제공합니다.</block>
   <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link-macro">이 새로운 서비스에 대해 자세히 알아보십시오</block>
-  <block id="07af92e755dcb6b8c74060d22fcc7077" category="paragraph"><block ref="12a8d1a9d44e422c8f9c04ab83945381" category="inline-link-macro-rx"></block>.</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp은 다양한 방법으로 Cloud Manager를 지원합니다. 기술 자료(KB) 기사 및 커뮤니티 포럼과 같은 광범위한 무료 셀프 지원 옵션이 24x7 제공됩니다. 지원 등록에는 웹 티켓팅을 통한 원격 기술 지원이 포함됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link-macro"></block>
@@ -59,10 +47,6 @@
   <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="inline-link">클라우드 데이터 감지</block>
   <block id="4c28f84b2cbc9460af1770270316b629" category="cell">데이터 원본의 일부 데이터가 을(를) 사용하여 스캔되지 않습니다<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block> 규정 준수 및 개인 정보 보호 문제를 식별하고 최적화 기회를 찾습니다.</block>
   <block id="72b16307fd83023f89f6fdbe2d82b1f9" category="cell">링크를 클릭하여 데이터 센스를 시작하고 스캔하지 않는 항목에 대한 스캐닝 및 매핑을 활성화합니다.</block>
-  <block id="153c673a2339b7123137c37da8e394e2" category="cell">ONTAP 시스템은 견고하게 제작된 것이 아닙니다</block>
-  <block id="5d585315f6c4c0a5ee1e800e3502dd08" category="cell">ONTAP 시스템의 특정 설정은 의 권장 사항에 따라 설정되지 않습니다<block ref="8d8b5d147963c1c0602add46562de9a1" category="inline-link-rx"></block>.</block>
-  <block id="f8aa88150742f7039dc7a7ef56fe7ecc" category="inline-xref">ONTAP 환경 패널을 강화합니다</block>
-  <block id="cfe657a540f747c9ef00f76eed4ccdad" category="cell">링크를 클릭하면 로 리디렉션됩니다 <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> 아래에서 경고를 유발하는 문제와 문제를 해결하는 방법을 확인할 수 있습니다.</block>
   <block id="64ea11c681029425167cb44bfc5cba6b" category="section-title">데이터 민감도에 따른 상위 데이터 저장소</block>
   <block id="dbf745aed831082f2f3dce55616bd43f" category="paragraph">Sensitivity Level을 통한 상위 데이터 리포지토리 _ 패널에는 가장 중요한 항목이 포함된 상위 4개의 데이터 저장소(작업 환경 및 데이터 소스)가 나열됩니다. 각 작업 환경의 막대 차트는 다음과 같이 구분됩니다.</block>
   <block id="c2587967478c7df25fe839d6f619f443" category="list-text">중요하지 않은 데이터입니다</block>
@@ -74,7 +58,6 @@
   <block id="b2f0cf77e342c8e06d6adc89839b5275" category="paragraph">각 영역을 클릭하면 데이터 감지 조사 페이지에서 필터링된 결과를 볼 수 있으므로 더 자세히 조사할 수 있습니다.</block>
   <block id="d12e8ee197943c930366883b4e6f7e46" category="section-title">도메인 관리자 그룹 제어</block>
   <block id="1484c0ae97e3321c4dc842fb559cbdb5" category="inline-link">글로벌 Active Directory 통합</block>
-  <block id="c217d88768fcd834f79ac4314520e2eb" category="paragraph">도메인 관리자 그룹 제어_패널에는 도메인 관리자 그룹에 추가된 최근 5명의 사용자가 표시되어 모든 사용자가 해당 그룹에서 허용되는지 확인할 수 있습니다. 이(가) 있어야 합니다<block ref="8f7d0451e4c868ad6ef341be6b4cd177" category="inline-link-rx"></block> 클라우드 데이터 센스로 들어가 이 패널이 활성화되도록 합니다.</block>
   <block id="32cb01a3a6310bb048c5fccec5ef559a" category="inline-image-macro">랜섬웨어 보호 대시보드에 도메인 관리자 로 추가된 사용자의 스크린샷</block>
   <block id="47887aad5d32097f5b8e3d8a5be5afb3" category="paragraph"><block ref="47887aad5d32097f5b8e3d8a5be5afb3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="46419f697b5cb46833f440abb15226ec" category="paragraph">기본 관리 그룹에는 "관리자", "도메인 관리자", "엔터프라이즈 관리자", "엔터프라이즈 키 관리자" 및 "키 관리자"가 포함됩니다.</block>
@@ -91,34 +74,11 @@
   <block id="103f4c38cb312b04a9ff1c216d60872d" category="paragraph">_Encrypted Files_패널은 시간이 지남에 따라 암호화되는 파일의 비율이 가장 높은 상위 4개의 데이터 소스를 표시합니다. 일반적으로 암호로 보호된 항목입니다. 이를 위해 지난 7일 동안의 암호화 속도를 비교하여 어떤 데이터 소스가 20% 이상 증가하는지 확인합니다. 이 용량이 증가하면 랜섬웨어가 이미 시스템을 공격하게 됩니다.</block>
   <block id="e1def2109874ef9469c6637b40a3ec72" category="paragraph"><block ref="e1def2109874ef9469c6637b40a3ec72" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c4c9189dc37433980c8f4fd90332e76e" category="paragraph">데이터 소스 중 하나에 대한 행을 클릭하여 데이터 감지 조사 페이지에서 필터링된 결과를 보고 더 자세히 조사할 수 있습니다.</block>
-  <block id="ba82eec4834347b5a1b3d627cccfd0a2" category="section-title">ONTAP 시스템 강화 상태</block>
-  <block id="2751cb6e210e14ad8dab47ab785137aa" category="paragraph">ONTAP 환경 _ 패널 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다<block ref="8d8b5d147963c1c0602add46562de9a1" category="inline-link-rx"></block> 로 이동합니다<block ref="b420a431c9b06854984942bb210b8527" category="inline-link-rx"></block> 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
-  <block id="fa89058d8368368a6a04d7b446f0b826" category="paragraph">권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. 이 패널은 현재 사내 ONTAP 및 Cloud Volumes ONTAP 시스템을 지원합니다.</block>
-  <block id="cf883a9477c6275016bd317d9ac38844" category="inline-image-macro">랜섬웨어 보호 대시보드의 ONTAP 강화 상태 스크린샷</block>
-  <block id="da0f95ed9d75ac4d5d3b7644ac2fd0b7" category="paragraph"><block ref="da0f95ed9d75ac4d5d3b7644ac2fd0b7" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bc6d33a925140a3460ad6681dc5242bc" category="paragraph">추적 중인 설정은 다음과 같습니다.</block>
-  <block id="e9f0aaae56580f9096af03ba526b177c" category="cell">강화 목표</block>
-  <block id="b8da2343c9a9a000ebabc122ea447e9f" category="cell">온박스 안티 랜섬웨어</block>
-  <block id="668049b833f74a4da25e90299e223ec3" category="cell">온박스 안티 랜섬웨어가 활성화된 볼륨의 비율입니다. 사내 ONTAP 시스템에만 적용됩니다. 녹색 상태 아이콘은 볼륨의 85% 이상이 활성화되어 있음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다.</block>
-  <block id="5548081e3623b5964eda1074b3e71b59" category="inline-link">볼륨에서 안티 랜섬웨어를 활성화하는 방법을 확인하십시오</block>
-  <block id="f9afbc61d8c3f1554d8948a8072f7cca" category="cell"><block ref="f7268bd2857519dbfe5ca6442e44c926" category="inline-link-rx"></block> System Manager 사용:</block>
-  <block id="e8467e9b509c4924668c01eb7ab2adde" category="cell">ONTAP 버전</block>
-  <block id="482ee68d7c307f3e7c6cd4490bcd8654" category="cell">클러스터에 설치된 ONTAP 소프트웨어의 버전입니다. 녹색 상태 아이콘은 버전이 현재 버전임을 나타냅니다. 노란색 아이콘은 클러스터가 1개 또는 2개의 패치 버전이나 온프레미스 시스템의 경우 1개의 부 버전 뒤이거나 다른 시스템의 경우 1개의 주 버전 뒤임을 나타냅니다. 빨간색 아이콘은 클러스터가 3개의 패치 버전 또는 2개의 부 버전 또는 온프레미스 시스템의 경우 1개의 주 버전 또는 다른 버전의 경우 2개의 주 버전 뒤임을 나타냅니다.</block>
-  <block id="0798f817dc1443dc9f38ec02333f79aa" category="inline-link">사내 클러스터를 업그레이드하는 가장 좋은 방법을 확인하십시오</block>
-  <block id="bd049a4521e272ef2c19305d5ce4e5e1" category="inline-link">Cloud Volumes ONTAP 시스템</block>
-  <block id="d79235cc308716db7768d40635a4ea88" category="cell"><block ref="d98b7c42d1930a18c92964de7674f038" category="inline-link-rx"></block> 또는<block ref="d91596b995f2e2640fd2f126a389525d" category="inline-link-rx"></block>.</block>
-  <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="cell">스냅샷 수</block>
-  <block id="fa1cc5ad543a3d3532ed24192f00dab0" category="cell">데이터 볼륨에 대해 활성화된 스냅샷 기능과 스냅샷 복사본이 있는 볼륨의 비율은 얼마입니까? 녹색 상태 아이콘은 볼륨의 85% 이상이 스냅샷을 활성화했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다.</block>
-  <block id="9b7b2159a6726d0ae7dbb67ac30fd7ff" category="inline-link">온프레미스 클러스터에서 스냅샷을 활성화하는 방법을 알아보십시오</block>
-  <block id="fed5603b3da12b224d2c5a4744d84db6" category="inline-link">Cloud Volumes ONTAP 시스템에</block>
-  <block id="4e437ecef37249a2bc5e8df8f1ccb95e" category="cell"><block ref="4168787cb28c6a37b0cf4ca6a0660be4" category="inline-link-rx"></block> 또는<block ref="d0ea607a6683a2696a3f15ac87428cb8" category="inline-link-rx"></block>.</block>
-  <block id="38f4f1ece97a1d13965a46da96aa9caf" category="paragraph">Cloud Backup 버튼을 클릭하여 볼륨에 대한 백업을 활성화하거나 Data Sense 버튼을 클릭하여 클러스터의 볼륨을 검사하여 규정 준수 및 거버넌스 준수를 조사할 수 있습니다.</block>
   <block id="4d18540b8dc5a99209517762449c6ad1" category="section-title">중요한 비즈니스 데이터에 대한 사용 권한의 상태입니다</block>
   <block id="7c10a5ddc22c56c55c4495f5de3c4b58" category="paragraph">비즈니스 크리티컬 데이터 권한 분석 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 표시합니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.</block>
   <block id="3c55b43a850b4a36aa1cc1d65a454b37" category="inline-image-macro">랜섬웨어 보호 대시보드에서 관리 중인 데이터의 사용 권한 상태를 보여주는 스크린샷</block>
   <block id="5f06a8506759d69aa6bee6f9a20832c9" category="paragraph"><block ref="5f06a8506759d69aa6bee6f9a20832c9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3567ab10a436a237ecb220a3570e73e6" category="inline-link">데이터 센스를 사용하여 정책을 만드십시오</block>
-  <block id="172585300741c8af2f22925a7128e50f" category="paragraph">가장 중요한 비즈니스 데이터를 보기 위해 만든 Data Sense_Policies_를 선택한 후에만 데이터가 채워지기 때문에 처음에는 이 패널에 데이터가 없습니다. 자세한 내용은 를 참조하십시오<block ref="46d26f0f5777f7661fabe75b0948e8d7" category="inline-link-rx"></block>.</block>
   <block id="1bb207ad78d32d19fdc9cefbaf8c218b" category="paragraph">이 패널에 최대 2개의 정책을 추가한 후 그래프에는 정책의 기준을 충족하는 모든 데이터에 대한 사용 권한 분석이 표시됩니다. 다음과 같은 항목 수가 나열됩니다.</block>
   <block id="8ae6bb3a0525cfee738155927a6d3790" category="list-text">공개 권한으로 열기 – Data Sense에서 공개라고 여기는 항목입니다</block>
   <block id="cf9aeda95b99fbd16f0e8d6a3445d6fa" category="list-text">조직 권한에 대한 공개 – Data Sense가 조직에 개방적이라고 여기는 항목입니다</block>
@@ -137,18 +97,12 @@
   <block id="2f7d7abbde3d214eeb937dd5553d1875" category="admonition">랜섬웨어 보호 서비스는 현재 베타 버전입니다.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
   <block id="9c0b12d94b35d04d362f66051612faa0" category="paragraph">랜섬웨어 차단은 현재 사이버 스토리지 보호 노력을 지원할 수 있는 여러 기능을 제공합니다. 향후 추가 기능이 추가될 예정입니다. 현재 기능은 다음과 같은 경우에 식별합니다.</block>
-  <block id="bdf71233b9b0efa87a2aca5c0fad260a" category="list-text">작업 환경의 볼륨은 정기적인 Snapshot 복사본을 만들어 보호되지 않습니다.</block>
   <block id="eb7d0298b4be2c1f2642a071e6afc843" category="list-text">를 사용하여 클라우드에 백업을 생성하면 작업 환경의 볼륨이 보호되지 않습니다<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block>.</block>
   <block id="289085348f74317351108d3d869b6f14" category="list-text">작업 환경 및 데이터 소스의 데이터는 를 사용하여 스캔되지 않습니다<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block> 규정 준수 및 개인 정보 보호에 대한 우려 사항을 파악하고 최적화 기회를 찾습니다.</block>
   <block id="bf4b00555794320f943c5414853d8594" category="list-text">작업 환경 또는 데이터 소스에서 암호화된 파일의 비율이 비정상적으로 증가했습니다.</block>
   <block id="0c33ac606d324594400b19f8dfbd2320" category="paragraph">이는 네트워크에서 랜섬웨어 공격이 시작했다는 것을 나타내는 지표가 될 수 있습니다.</block>
   <block id="9f9bf12f0d03aa6e52653dd926af3d1a" category="list-text">파일에서 중요한 데이터가 검색되고 작업 환경 또는 데이터 소스에서 액세스 권한 수준이 너무 높습니다.</block>
   <block id="9fac98dd46ced81c05c7b657e31d52a1" category="list-text">사용자가 Active Directory 도메인 관리자 그룹에 추가되었습니다.</block>
-  <block id="d5eb702421e2cc525e648eeebbdbd258" category="list-text">클러스터의 ONTAP 소프트웨어 버전은 오래되었으며 최상의 보호 및 보안 기능을 제공하도록 업데이트해야 합니다.</block>
-  <block id="51b8087986092c90540ce07ff9731763" category="list-text">ONTAP 시스템에서 NAS 파일 시스템 감사가 설정되지 않았습니다.</block>
-  <block id="1f7c786e95d48949eb75e0f100710129" category="paragraph">CIFS 감사를 설정하면 시스템 관리자가 폴더 권한 변경, 파일 읽기 또는 쓰기 실패, 파일 생성, 수정 또는 삭제 시기 등의 정보를 추적하는 감사 이벤트가 생성됩니다.</block>
-  <block id="8dde611eee96a2ced9961bcba422ef09" category="list-text">온박스 안티 랜섬웨어 기능은 ONTAP 시스템에서 지원되지 않습니다.</block>
-  <block id="4944c9c65fff384675d8baccb34860d8" category="paragraph">ONTAP의 랜섬웨어 방지 기능은 랜섬웨어 공격을 나타낼 수 있는 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
   <block id="b0d802aefd0aaa8c7b820eb85f1572c6" category="inline-link-macro">랜섬웨어 보호 대시보드에서 이러한 잠재적인 문제를 확인하는 방법을 알아보십시오.</block>
   <block id="5744098ef9fc961c062144a5e4a350e8" category="paragraph"><block ref="5744098ef9fc961c062144a5e4a350e8" category="inline-link-macro-rx"></block></block>
   <block id="67c57c1ee074a0ca2ba70d8e8697fa83" category="inline-link">랜섬웨어에 대한 보호를 강화하는 방법을 알아보십시오</block>
@@ -171,8 +125,6 @@
   <block id="baf7c2e288b369e60a7911ccf0d7843f" category="paragraph">또한 랜섬웨어 차단 기능은 글로벌 Active Directory 구성이 있는 경우 모니터링하기도 합니다<block ref="d685621cbb53c0e90fe734b5c28a2dbe" category="inline-link-rx"></block>.</block>
   <block id="589c1e86e266a18dc3983ba51d0a031b" category="section-title">랜섬웨어 차단의 작동 방식</block>
   <block id="7decc1126c0bc1b92923147bff845cde" category="paragraph">고수준에서 랜섬웨어 차단은 다음과 같이 작동합니다.</block>
-  <block id="9ea9d90ba484137a67080a2b97132147" category="list-text">랜섬웨어 방지 기능은 Data Sense, Cloud Backup 및 기타 Cloud Manager 리소스에서 정보를 수집하여 랜섬웨어 보호 대시보드를 채웁니다.</block>
-  <block id="5063440a7b98026cbfafe1b51817682a" category="list-text">랜섬웨어 보호 대시보드를 사용하여 시스템 보호 수준 개요를 수집합니다.</block>
   <block id="ddb1029c89fa39456180abaf191e6b60" category="list-text">제공된 보고 툴을 사용하여 사이버 스토리지 보호 노력을 지원할 수 있습니다.</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
   <block id="bff8adc090b2fdcbd02cf502f752a260" category="paragraph">Beta 기간 중에는 랜섬웨어 보호 서비스에 별도의 비용이 들지 않습니다.</block>
@@ -198,4 +150,12 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 블로그</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
+  <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">2022년 3월 15일</block>
+  <block id="3c9974394905baea83613dc5243e802d" category="paragraph">새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.<block ref="bd1d0d25f541ccd6fe3d549035a08045" category="inline-link-rx"></block>.</block>
+  <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022년 2월 9일</block>
+  <block id="4cbab4d1f9ed3d7e4a072ea1383b05e0" category="paragraph"><block ref="886d7dbada41cb3ce3b667c033fcccd8" category="inline-link-rx"></block>.</block>
+  <block id="206f9d17695d7880b66a22ae30ca1d40" category="paragraph">도메인 관리자 그룹 제어_패널에는 도메인 관리자 그룹에 추가된 최신 사용자가 표시되어 모든 사용자가 해당 그룹에서 허용되는지 확인할 수 있습니다. 이(가) 있어야 합니다<block ref="8f7d0451e4c868ad6ef341be6b4cd177" category="inline-link-rx"></block> 클라우드 데이터 센스로 들어가 이 패널이 활성화되도록 합니다.</block>
+  <block id="824301188a8dca76d7a6db3ecc3d5491" category="paragraph">가장 중요한 비즈니스 데이터를 보기 위해 만든 Data Sense_Policies_를 선택한 후에만 데이터가 채워지기 때문에 처음에는 이 패널에 데이터가 없습니다. 자세한 내용은 를 참조하십시오<block ref="ca4155a1a04193934b2931c2b97d49e7" category="inline-link-rx"></block>.</block>
+  <block id="ed47a881805b813c0ec26c370ffa973f" category="list-text">랜섬웨어 방지 기능은 Cloud Data Sense, Cloud Backup 및 기타 Cloud Manager 리소스에서 정보를 수집하여 랜섬웨어 보호 대시보드를 채웁니다.</block>
+  <block id="4c5eb95a9e7808face08edae00ea13d5" category="list-text">랜섬웨어 보호 대시보드를 사용하여 시스템의 보호 기능을 대략적으로 파악할 수 있습니다.</block>
 </blocks>

@@ -49,9 +49,6 @@ image:screenshot_ransomware_cyber_map.png["랜섬웨어 보호 대시보드의 �
 
 
 | 데이터 소스에 있는 하나 이상의 저장소(볼륨, 버킷 등)가 데이터 센스에 의해 스캔되지 않습니다 | 데이터 원본의 일부 데이터가 을(를) 사용하여 스캔되지 않습니다 https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["클라우드 데이터 감지"^] 규정 준수 및 개인 정보 보호 문제를 식별하고 최적화 기회를 찾습니다. | 링크를 클릭하여 데이터 센스를 시작하고 스캔하지 않는 항목에 대한 스캐닝 및 매핑을 활성화합니다. 
-
-
-| ONTAP 시스템은 견고하게 제작된 것이 아닙니다 | ONTAP 시스템의 특정 설정은 의 권장 사항에 따라 설정되지 않습니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"]. | 링크를 클릭하면 로 리디렉션됩니다 <<Status of ONTAP systems hardening,ONTAP 환경 패널을 강화합니다>> 아래에서 경고를 유발하는 문제와 문제를 해결하는 방법을 확인할 수 있습니다. 
 |===
 
 
@@ -74,7 +71,7 @@ image:screenshot_ransomware_sensitivity.png["랜섬웨어 보호 대시보드의
 
 == 도메인 관리자 그룹 제어
 
-도메인 관리자 그룹 제어_패널에는 도메인 관리자 그룹에 추가된 최근 5명의 사용자가 표시되어 모든 사용자가 해당 그룹에서 허용되는지 확인할 수 있습니다. 이(가) 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html["글로벌 Active Directory 통합"^] 클라우드 데이터 센스로 들어가 이 패널이 활성화되도록 합니다.
+도메인 관리자 그룹 제어_패널에는 도메인 관리자 그룹에 추가된 최신 사용자가 표시되어 모든 사용자가 해당 그룹에서 허용되는지 확인할 수 있습니다. 이(가) 있어야 합니다 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html["글로벌 Active Directory 통합"^] 클라우드 데이터 센스로 들어가 이 패널이 활성화되도록 합니다.
 
 image:screenshot_ransomware_domain_admin.png["랜섬웨어 보호 대시보드에 도메인 관리자 로 추가된 사용자의 스크린샷"]
 
@@ -110,40 +107,13 @@ image:screenshot_ransomware_encrypt_files.png["랜섬웨어 보호 대시보드�
 
 
 
-== ONTAP 시스템 강화 상태
-
-ONTAP 환경 _ 패널 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"] 비정상적인 활동을 사전에 감지하여 경고합니다.
-
-권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. 이 패널은 현재 사내 ONTAP 및 Cloud Volumes ONTAP 시스템을 지원합니다.
-
-image:screenshot_ransomware_harden_ontap.png["랜섬웨어 보호 대시보드의 ONTAP 강화 상태 스크린샷"]
-
-추적 중인 설정은 다음과 같습니다.
-
-[cols="33,33,33"]
-|===
-| 강화 목표 | 설명 | 해결 
-
-
-| 온박스 안티 랜섬웨어 | 온박스 안티 랜섬웨어가 활성화된 볼륨의 비율입니다. 사내 ONTAP 시스템에만 적용됩니다. 녹색 상태 아이콘은 볼륨의 85% 이상이 활성화되어 있음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["볼륨에서 안티 랜섬웨어를 활성화하는 방법을 확인하십시오"] System Manager 사용: 
-
-
-| ONTAP 버전 | 클러스터에 설치된 ONTAP 소프트웨어의 버전입니다. 녹색 상태 아이콘은 버전이 현재 버전임을 나타냅니다. 노란색 아이콘은 클러스터가 1개 또는 2개의 패치 버전이나 온프레미스 시스템의 경우 1개의 부 버전 뒤이거나 다른 시스템의 경우 1개의 주 버전 뒤임을 나타냅니다. 빨간색 아이콘은 클러스터가 3개의 패치 버전 또는 2개의 부 버전 또는 온프레미스 시스템의 경우 1개의 주 버전 또는 다른 버전의 경우 2개의 주 버전 뒤임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/setup-upgrade/index.html["사내 클러스터를 업그레이드하는 가장 좋은 방법을 확인하십시오"] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task_updating_ontap_cloud.html["Cloud Volumes ONTAP 시스템"]. 
-
-
-| 스냅샷 수 | 데이터 볼륨에 대해 활성화된 스냅샷 기능과 스냅샷 복사본이 있는 볼륨의 비율은 얼마입니까? 녹색 상태 아이콘은 볼륨의 85% 이상이 스냅샷을 활성화했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/task_dp_configure_snapshot.html["온프레미스 클러스터에서 스냅샷을 활성화하는 방법을 알아보십시오"] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task_managing_storage.html#managing-existing-volumes["Cloud Volumes ONTAP 시스템에"]. 
-|===
-Cloud Backup 버튼을 클릭하여 볼륨에 대한 백업을 활성화하거나 Data Sense 버튼을 클릭하여 클러스터의 볼륨을 검사하여 규정 준수 및 거버넌스 준수를 조사할 수 있습니다.
-
-
-
 == 중요한 비즈니스 데이터에 대한 사용 권한의 상태입니다
 
 비즈니스 크리티컬 데이터 권한 분석 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 표시합니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.
 
 image:screenshot_ransomware_critical_permissions.png["랜섬웨어 보호 대시보드에서 관리 중인 데이터의 사용 권한 상태를 보여주는 스크린샷"]
 
-가장 중요한 비즈니스 데이터를 보기 위해 만든 Data Sense_Policies_를 선택한 후에만 데이터가 채워지기 때문에 처음에는 이 패널에 데이터가 없습니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#creating-custom-policies["데이터 센스를 사용하여 정책을 만드십시오"].
+가장 중요한 비즈니스 데이터를 보기 위해 만든 Data Sense_Policies_를 선택한 후에만 데이터가 채워지기 때문에 처음에는 이 패널에 데이터가 없습니다. 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-data-sense/task-org-private-data.html#creating-custom-policies["데이터 센스를 사용하여 정책을 만드십시오"^].
 
 이 패널에 최대 2개의 정책을 추가한 후 그래프에는 정책의 기준을 충족하는 모든 데이터에 대한 사용 권한 분석이 표시됩니다. 다음과 같은 항목 수가 나열됩니다.
 
