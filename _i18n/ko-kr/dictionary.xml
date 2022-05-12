@@ -243,12 +243,10 @@
   <block id="31d81eb6324899c415d867559799335f" category="cell">클러스터에 설치된 ONTAP 소프트웨어의 버전입니다. 녹색 상태 아이콘은 버전이 현재 버전임을 나타냅니다. 노란색 아이콘은 클러스터가 1개 또는 2개의 패치 버전이나 온프레미스 시스템의 경우 1개의 부 버전 뒤이거나 Cloud Volumes ONTAP의 경우 1개의 주 버전 뒤임을 나타냅니다. 빨간색 아이콘은 클러스터가 3개의 패치 버전 또는 2개의 부 버전 또는 온프레미스 시스템의 경우 1개의 주 버전 또는 Cloud Volumes ONTAP의 경우 2개의 주 버전 뒤임을 나타냅니다.</block>
   <block id="0798f817dc1443dc9f38ec02333f79aa" category="inline-link">사내 클러스터를 업그레이드하는 가장 좋은 방법을 확인하십시오</block>
   <block id="bd049a4521e272ef2c19305d5ce4e5e1" category="inline-link">Cloud Volumes ONTAP 시스템</block>
-  <block id="4867a1cb8e3719b51ef967ab80e53e8f" category="cell"><block ref="ebf13e67cf6307ed02967adbb6711cdb" category="inline-link-rx"></block> 또는<block ref="6150641a317e0d5077ba6e5e03ee5ee3" category="inline-link-rx"></block>.</block>
   <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="cell">스냅샷 수</block>
   <block id="fa1cc5ad543a3d3532ed24192f00dab0" category="cell">데이터 볼륨에 대해 활성화된 스냅샷 기능과 스냅샷 복사본이 있는 볼륨의 비율은 얼마입니까? 녹색 상태 아이콘은 볼륨의 85% 이상이 스냅샷을 활성화했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다.</block>
   <block id="fcb0bd0c7d52a8e69bc675e26e703a23" category="inline-link">온프레미스 클러스터에서 볼륨 스냅샷을 활성화하는 방법을 알아보십시오</block>
   <block id="fed5603b3da12b224d2c5a4744d84db6" category="inline-link">Cloud Volumes ONTAP 시스템에</block>
-  <block id="65e047e44fd4275bef3660402ed0fc17" category="cell"><block ref="9217c403e6fe97a9a176c63ac6ba2b68" category="inline-link-rx"></block> 또는<block ref="d709500d882db836e58c0872959bd621" category="inline-link-rx"></block>.</block>
   <block id="aac2820f28cdf9767df626982701f227" category="paragraph">처음에 이 패널은 선택한 기본 정책을 기반으로 데이터를 표시합니다. 하지만 가장 중요한 비즈니스 데이터를 보기 위해 만든 가장 중요한 데이터 감지 정책 2개를 선택할 수 있습니다. 자세한 내용은 를 참조하십시오<block ref="ca4155a1a04193934b2931c2b97d49e7" category="inline-link-rx"></block>.</block>
   <block id="d7a430aef362e0674d0e4f46cc4e0826" category="paragraph">그래프에는 정책의 기준을 충족하는 모든 데이터에 대한 사용 권한 분석이 표시됩니다. 다음과 같은 항목 수가 나열됩니다.</block>
   <block id="01238444606a763f352d68cd714ac7c9" category="section-title">중요한 비즈니스 데이터의 백업 상태입니다</block>
@@ -260,4 +258,7 @@
   <block id="f6c10502779e9890e96477c5311d212f" category="paragraph">처음에 이 패널은 선택한 기본 범주를 기반으로 데이터를 표시합니다. 그러나 추적할 데이터 범주를 선택할 수 있습니다. 예를 들어 코드 파일, 계약 등을 선택할 수 있습니다. 의 전체 목록을 참조하십시오<block ref="cffd3331f5cb204084a40331444df4fd" category="inline-link-rx"></block> 클라우드 데이터 센스를 통해 작업 환경을 구축할 수 있습니다. 그런 다음 최대 4개의 범주를 선택합니다.</block>
   <block id="d6eb5dc1abeab0ff34111bbaa52c3db3" category="paragraph">데이터가 채워진 후 차트의 각 사각형 위로 마우스를 가져가면 작업 환경의 같은 범주에 있는 모든 파일에서 백업된 파일 수가 표시됩니다. 녹색 사각형은 파일 중 85% 이상이 백업되고 있음을 의미합니다. 노란색 정사각형은 파일 중 40%~85%가 백업되고 있음을 의미합니다. 빨간색 사각형은 40% 이하의 파일이 백업되고 있음을 의미합니다.</block>
   <block id="cd78e0c0868be8e03c054039b311a66c" category="paragraph">행 끝에 있는 Cloud Backup 버튼을 클릭하여 Cloud Backup 인터페이스로 이동하여 각 작업 환경에서 더 많은 볼륨에 대한 백업을 활성화할 수 있습니다.</block>
+  <block id="c520be19d736e28ac258be212caaa6a5" category="cell"><block ref="ebf13e67cf6307ed02967adbb6711cdb" category="inline-link-rx"></block> 또는<block ref="57f03f2d814ee68f8cab383ca5276240" category="inline-link-rx"></block>.</block>
+  <block id="b9de0627ae5b338bc6c5d66e26fd1ebc" category="inline-link">ONTAP 시스템용 FSx에서</block>
+  <block id="3b87b8dcbc175954773151e5cdbe57d2" category="cell"><block ref="9217c403e6fe97a9a176c63ac6ba2b68" category="inline-link-rx"></block>, 또는<block ref="a83b33f58a6c49ebc8dc0bebb61ff0e7" category="inline-link-rx"></block>, 또는<block ref="655b9f4a8bcbab74e9e21d268c925508" category="inline-link-rx"></block>.</block>
 </blocks>

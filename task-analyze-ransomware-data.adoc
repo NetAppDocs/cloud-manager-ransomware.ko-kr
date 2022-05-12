@@ -137,10 +137,10 @@ image:screenshot_ransomware_harden_ontap.png["랜섬웨어 보호 대시보드�
 | ONTAP의 랜섬웨어 방지 기술 | 온박스 안티 랜섬웨어가 활성화된 볼륨의 비율입니다. 사내 ONTAP 시스템에만 적용됩니다. 녹색 상태 아이콘은 볼륨의 85% 이상이 활성화되어 있음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html#system-manager-procedure["볼륨에서 안티 랜섬웨어를 활성화하는 방법을 확인하십시오"^] System Manager 사용: 
 
 
-| ONTAP 버전 | 클러스터에 설치된 ONTAP 소프트웨어의 버전입니다. 녹색 상태 아이콘은 버전이 현재 버전임을 나타냅니다. 노란색 아이콘은 클러스터가 1개 또는 2개의 패치 버전이나 온프레미스 시스템의 경우 1개의 부 버전 뒤이거나 Cloud Volumes ONTAP의 경우 1개의 주 버전 뒤임을 나타냅니다. 빨간색 아이콘은 클러스터가 3개의 패치 버전 또는 2개의 부 버전 또는 온프레미스 시스템의 경우 1개의 주 버전 또는 Cloud Volumes ONTAP의 경우 2개의 주 버전 뒤임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/setup-upgrade/index.html["사내 클러스터를 업그레이드하는 가장 좋은 방법을 확인하십시오"^] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task_updating_ontap_cloud.html["Cloud Volumes ONTAP 시스템"^]. 
+| ONTAP 버전 | 클러스터에 설치된 ONTAP 소프트웨어의 버전입니다. 녹색 상태 아이콘은 버전이 현재 버전임을 나타냅니다. 노란색 아이콘은 클러스터가 1개 또는 2개의 패치 버전이나 온프레미스 시스템의 경우 1개의 부 버전 뒤이거나 Cloud Volumes ONTAP의 경우 1개의 주 버전 뒤임을 나타냅니다. 빨간색 아이콘은 클러스터가 3개의 패치 버전 또는 2개의 부 버전 또는 온프레미스 시스템의 경우 1개의 주 버전 또는 Cloud Volumes ONTAP의 경우 2개의 주 버전 뒤임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/setup-upgrade/index.html["사내 클러스터를 업그레이드하는 가장 좋은 방법을 확인하십시오"^] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updating-ontap-cloud.html["Cloud Volumes ONTAP 시스템"^]. 
 
 
-| 스냅샷 수 | 데이터 볼륨에 대해 활성화된 스냅샷 기능과 스냅샷 복사본이 있는 볼륨의 비율은 얼마입니까? 녹색 상태 아이콘은 볼륨의 85% 이상이 스냅샷을 활성화했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/task_dp_configure_snapshot.html["온프레미스 클러스터에서 볼륨 스냅샷을 활성화하는 방법을 알아보십시오"^] 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task_managing_storage.html#managing-existing-volumes["Cloud Volumes ONTAP 시스템에"^]. 
+| 스냅샷 수 | 데이터 볼륨에 대해 활성화된 스냅샷 기능과 스냅샷 복사본이 있는 볼륨의 비율은 얼마입니까? 녹색 상태 아이콘은 볼륨의 85% 이상이 스냅샷을 활성화했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다. | https://docs.netapp.com/us-en/ontap/task_dp_configure_snapshot.html["온프레미스 클러스터에서 볼륨 스냅샷을 활성화하는 방법을 알아보십시오"^], 또는 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-volumes.html#manage-volumes["Cloud Volumes ONTAP 시스템에"^], 또는 https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/use/task-manage-fsx-volumes.html#manage-snapshot-copies["ONTAP 시스템용 FSx에서"^]. 
 |===
 
 
