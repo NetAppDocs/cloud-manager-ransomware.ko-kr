@@ -10,8 +10,6 @@ settings:
   langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: 모든 Cloud Manager 설명서
-    url: https://docs.netapp.com/us-en/cloud-manager-family
   - title: 랜섬웨어 보호 문서
     url: "/index.html"
   - title: 릴리스 정보
@@ -50,6 +48,8 @@ homepage:
       url: task-analyze-ransomware-data.html#data-listed-by-types-of-open-permissions
     - title: 암호화된 파일로 나열된 데이터를 봅니다
       url: task-analyze-ransomware-data.html#data-listed-by-encrypted-files
+    - title: ONTAP 시스템이 랜섬웨어로부터 얼마나 안전하게 보호되는지 알아보십시오
+      url: task-analyze-ransomware-data.html#status-of-ontap-systems-hardening
   - title: 블로그 커뮤니티
     links:
     - title: NetApp 커뮤니티
@@ -61,3 +61,4 @@ homepage:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation

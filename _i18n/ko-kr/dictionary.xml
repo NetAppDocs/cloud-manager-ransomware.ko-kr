@@ -91,7 +91,6 @@
   <block id="effbb336e45f46d581aeda0855b4f075" category="paragraph"><block ref="1d0e1a8a3aab3560b76f73789d114aca" category="inline-link-rx"></block>.</block>
   <block id="2f7d7abbde3d214eeb937dd5553d1875" category="admonition">랜섬웨어 보호 서비스는 현재 베타 버전입니다.</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">피처</block>
-  <block id="9c0b12d94b35d04d362f66051612faa0" category="paragraph">랜섬웨어 차단은 현재 사이버 스토리지 보호 노력을 지원할 수 있는 여러 기능을 제공합니다. 향후 추가 기능이 추가될 예정입니다. 현재 기능은 다음과 같은 경우에 식별합니다.</block>
   <block id="eb7d0298b4be2c1f2642a071e6afc843" category="list-text">를 사용하여 클라우드에 백업을 생성하면 작업 환경의 볼륨이 보호되지 않습니다<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block>.</block>
   <block id="289085348f74317351108d3d869b6f14" category="list-text">작업 환경 및 데이터 소스의 데이터는 를 사용하여 스캔되지 않습니다<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block> 규정 준수 및 개인 정보 보호에 대한 우려 사항을 파악하고 최적화 기회를 찾습니다.</block>
   <block id="bf4b00555794320f943c5414853d8594" category="list-text">작업 환경 또는 데이터 소스에서 암호화된 파일의 비율이 비정상적으로 증가했습니다.</block>
@@ -126,7 +125,6 @@
   <block id="3d6eff6991e5216e6290ee43be3ac04a" category="doc">랜섬웨어 보호 문서</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">NetApp 기술 지원으로 지원 케이스를 생성하기 전에 NetApp Support 사이트 계정을 Cloud Manager에 추가한 다음 지원을 위해 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원을 위해 등록하십시오</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
   <block id="8aa5491f5b5232be0b1b2e9832e6ee88" category="sidebar">랜섬웨어 보호 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -147,8 +145,6 @@
   <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">2022년 2월 9일</block>
   <block id="206f9d17695d7880b66a22ae30ca1d40" category="paragraph">도메인 관리자 그룹 제어_패널에는 도메인 관리자 그룹에 추가된 최신 사용자가 표시되어 모든 사용자가 해당 그룹에서 허용되는지 확인할 수 있습니다. 이(가) 있어야 합니다<block ref="8f7d0451e4c868ad6ef341be6b4cd177" category="inline-link-rx"></block> 클라우드 데이터 센스로 들어가 이 패널이 활성화되도록 합니다.</block>
   <block id="4c5eb95a9e7808face08edae00ea13d5" category="list-text">랜섬웨어 보호 대시보드를 사용하여 시스템의 보호 기능을 대략적으로 파악할 수 있습니다.</block>
-  <block id="5816bf17c72947dceb173c559c3f6009" category="paragraph">새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>.</block>
-  <block id="f8f0d5b489ad504a83a9a25f8afd6159" category="paragraph"><block ref="64dfcbf1401a338253308f53837a8af7" category="inline-link-rx"></block>.</block>
   <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">NSS 계정을 추가합니다</block>
   <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">지원 대시보드를 이용하면 모든 NetApp Support 사이트 계정을 단일 위치에서 추가 및 관리할 수 있습니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
@@ -214,10 +210,8 @@
   <block id="55a52ff3da54b1be61be4ffbf282e94a" category="section-title">ONTAP 환경의 보안 강화를 추적하는 새 패널.</block>
   <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오</block>
   <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP의 랜섬웨어 방지 기능</block>
-  <block id="c0920e0c17ca7e741f375b33ea0a761b" category="paragraph">새로운 "ONTAP 환경 보호" 패널은 ONTAP 시스템의 특정 설정 상태를 제공하여 에 따른 배포 보안을 추적합니다<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 로 이동합니다<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
   <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다.<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>.</block>
   <block id="76553642514a4b204c12afe14df42e92" category="section-title">클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다.</block>
-  <block id="c55588bedd5ed04bd522d770a0c3de70" category="paragraph">이 새로운 "백업 상태" 패널은 랜섬웨어 공격으로 인해 복구해야 할 경우에 대비하여 가장 중요한 데이터 범주를 포괄적으로 백업하는 방법을 보여줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다.<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>.</block>
   <block id="5592b65ac68ee08e7e4d72e1db4c8c57" category="cell">온박스 앤티 랜섬웨어는 일부 볼륨에 대해 활성화되지 않습니다</block>
   <block id="3e4cd8785a12dd4af37c0d4961022f96" category="inline-link">NetApp의 랜섬웨어 방지 기능</block>
   <block id="7aa34ccd4933956082a1db1a1dcb9386" category="cell">온프레미스 ONTAP 시스템의 일부 볼륨에 이 없습니다<block ref="c430ca7dfd9bb0dbfe1053348a62639f" category="inline-link-rx"></block> 활성화됨.</block>
@@ -261,4 +255,27 @@
   <block id="c520be19d736e28ac258be212caaa6a5" category="cell"><block ref="ebf13e67cf6307ed02967adbb6711cdb" category="inline-link-rx"></block> 또는<block ref="57f03f2d814ee68f8cab383ca5276240" category="inline-link-rx"></block>.</block>
   <block id="b9de0627ae5b338bc6c5d66e26fd1ebc" category="inline-link">ONTAP 시스템용 FSx에서</block>
   <block id="3b87b8dcbc175954773151e5cdbe57d2" category="cell"><block ref="9217c403e6fe97a9a176c63ac6ba2b68" category="inline-link-rx"></block>, 또는<block ref="a83b33f58a6c49ebc8dc0bebb61ff0e7" category="inline-link-rx"></block>, 또는<block ref="655b9f4a8bcbab74e9e21d268c925508" category="inline-link-rx"></block>.</block>
+  <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">2022년 6월 12일</block>
+  <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">이제 ONTAP 스토리지 VM에 대한 NAS 파일 시스템 감사 상태가 추적됩니다</block>
+  <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">작업 환경의 스토리지 VM 중 40% 미만에서 파일 시스템 감사가 활성화된 경우 _ Cyber Resilience Map _ 에 경고가 추가됩니다. SMB 및 NFS 이벤트를 추적 및 로깅하지 않는 SVM의 정확한 수를 _ ONTAP 환경의 _ 패널에서 감사 로그에 확인할 수 있습니다. 그런 다음 SVM에 대한 감사를 사용할지 여부를 결정할 수 있습니다.</block>
+  <block id="9f8d82fd59d602cd8a59ae988c97d5e6" category="section-title">이제 온박스 앤티 랜섬웨어가 볼륨에 대해 활성화되지 않은 경우 경고가 표시됩니다</block>
+  <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">이 정보는 이전에 _ ONTAP Environments _ 패널의 온프레미스 ONTAP 시스템에 대해 보고되었습니다. 그러나 이제 온박스 안티 랜섬웨어 기능이 볼륨의 40% 미만으로 켜지면 _ Cyber Resilience Map_에서 경고가 보고되므로 대시보드에서 이 정보를 볼 수 있습니다.</block>
+  <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">이제 ONTAP 시스템용 FSX가 추적되어 볼륨 스냅샷을 활성화할 수 있습니다</block>
+  <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">ONTAP 환경의 _ 장 _ 패널은 이제 ONTAP 시스템용 FSx의 볼륨에 대한 스냅샷 복사본의 상태를 제공합니다. 볼륨의 40% 미만이 스냅숏으로 보호되는 경우 _ Cyber Resilience Map _ 에서도 경고가 표시됩니다.</block>
+  <block id="5e5a2d8b7f4ac8723d3873b0ba14916e" category="paragraph">ONTAP 환경의 새로운 패널 _ 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> 로 이동합니다<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> 비정상적인 활동을 사전에 감지하여 경고합니다.</block>
+  <block id="ed35eae63358acfc6c38aefc0b7736d0" category="paragraph">이 새로운 _Backup Status_패널에서는 랜섬웨어 공격으로 인해 복구해야 할 경우 가장 중요한 데이터 범주가 얼마나 포괄적으로 백업되는지 보여 줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다.<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>.</block>
+  <block id="f0affd41380a1f75f1e8cb0eb63a3746" category="paragraph">새로운 PANEL_Business Critical data permissions analysis_는 비즈니스에 중요한 데이터의 사용 권한 상태를 표시합니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다.<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>.</block>
+  <block id="07af92e755dcb6b8c74060d22fcc7077" category="paragraph"><block ref="12a8d1a9d44e422c8f9c04ab83945381" category="inline-link-macro-rx"></block>.</block>
+  <block id="2b7793f2050536702cffe75f1afedd67" category="paragraph">Cloud Manager 랜섬웨어 보호 대시보드를 사용하여 모든 작업 환경 및 데이터 소스의 사이버 탄력성에 대한 개요를 볼 수 있습니다. 각 영역을 드릴다운하여 자세한 내용과 가능한 해결 방법을 찾을 수 있습니다.</block>
+  <block id="c4839802587ac50cbe60ffdc49b98465" category="cell">모든 SVM에 대해 파일 운영 감사가 활성화되어 있지 않습니다</block>
+  <block id="112dc676159587048198f85964d6516d" category="cell">작업 환경의 일부 스토리지 VM에는 파일 시스템 감사가 설정되어 있지 않습니다. 파일의 사용자 작업을 추적할 수 있도록 하는 것이 좋습니다.</block>
+  <block id="2a616a7e873712e5b6e2b2ace9afd42d" category="cell">링크를 클릭하면 로 리디렉션됩니다 <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> 문제가 있는 작업 환경으로 이동합니다. SVM에서 NAS 감사를 활성화해야 하는지 여부를 조사할 수 있습니다.</block>
+  <block id="e4a37f02d326b41feca29ff24384dfc1" category="cell">NAS 감사</block>
+  <block id="26644e590b6e93e56b7eb402dd7184d7" category="cell">파일 시스템 감사가 설정된 스토리지 VM의 수입니다. 녹색 상태 아이콘은 SVM의 85% 이상이 NAS 파일 시스템 감사를 설정했음을 나타냅니다. 노란색은 40-85%가 활성화되었음을 나타냅니다. 빨간색은 40% 미만임을 나타냅니다.</block>
+  <block id="c6310b0082711c2ecff8665c858d4349" category="inline-link">SVM에서 NAS 감사를 사용하는 방법을 알아보십시오</block>
+  <block id="4f1efe1bb089b60d7f12a798fbc657ac" category="cell"><block ref="5008c18083c6348e863173af351120f7" category="inline-link-rx"></block> CLI 사용</block>
+  <block id="d79e9c50c54d2d70bdf5777d13357ae9" category="paragraph">랜섬웨어 차단 기능은 단일 가시성 및 제어 지점을 제공하여 다양한 작업 환경과 인프라 계층에서 데이터 보안을 관리 및 세분화하여 위협이 발생했을 때 보다 효과적으로 대응할 수 있도록 지원합니다. 현재 사이버 스토리지 보호 작업에 도움이 되는 여러 기능을 제공하고 있습니다. 향후 추가 기능이 추가될 예정입니다. 현재 기능은 다음과 같은 경우에 식별합니다.</block>
+  <block id="51b8087986092c90540ce07ff9731763" category="list-text">ONTAP 시스템에서 NAS 파일 시스템 감사가 설정되지 않았습니다.</block>
+  <block id="1f7c786e95d48949eb75e0f100710129" category="paragraph">CIFS 감사를 설정하면 시스템 관리자가 폴더 권한 변경, 파일 읽기 또는 쓰기 실패, 파일 생성, 수정 또는 삭제 시기 등의 정보를 추적하는 감사 이벤트가 생성됩니다.</block>
+  <block id="23d8e653f2d8934c45e811223bcdf92b" category="sidebar">ONTAP 시스템이 랜섬웨어로부터 얼마나 안전하게 보호되는지 알아보십시오</block>
 </blocks>

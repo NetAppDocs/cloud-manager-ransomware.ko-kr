@@ -18,13 +18,35 @@ summary: 랜섬웨어 차단의 새로운 기능에 대해 알아보십시오.
 
 
 
+== 2022년 6월 12일
+
+
+
+=== 이제 ONTAP 스토리지 VM에 대한 NAS 파일 시스템 감사 상태가 추적됩니다
+
+작업 환경의 스토리지 VM 중 40% 미만에서 파일 시스템 감사가 활성화된 경우 _ Cyber Resilience Map _ 에 경고가 추가됩니다. SMB 및 NFS 이벤트를 추적 및 로깅하지 않는 SVM의 정확한 수를 _ ONTAP 환경의 _ 패널에서 감사 로그에 확인할 수 있습니다. 그런 다음 SVM에 대한 감사를 사용할지 여부를 결정할 수 있습니다.
+
+
+
+=== 이제 온박스 앤티 랜섬웨어가 볼륨에 대해 활성화되지 않은 경우 경고가 표시됩니다
+
+이 정보는 이전에 _ ONTAP Environments _ 패널의 온프레미스 ONTAP 시스템에 대해 보고되었습니다. 그러나 이제 온박스 안티 랜섬웨어 기능이 볼륨의 40% 미만으로 켜지면 _ Cyber Resilience Map_에서 경고가 보고되므로 대시보드에서 이 정보를 볼 수 있습니다.
+
+
+
+=== 이제 ONTAP 시스템용 FSX가 추적되어 볼륨 스냅샷을 활성화할 수 있습니다
+
+ONTAP 환경의 _ 장 _ 패널은 이제 ONTAP 시스템용 FSx의 볼륨에 대한 스냅샷 복사본의 상태를 제공합니다. 볼륨의 40% 미만이 스냅숏으로 보호되는 경우 _ Cyber Resilience Map _ 에서도 경고가 표시됩니다.
+
+
+
 == 2022년 5월 11일
 
 
 
 === ONTAP 환경의 보안 강화를 추적하는 새 패널.
 
-새로운 "ONTAP 환경 보호" 패널은 ONTAP 시스템의 특정 설정 상태를 제공하여 에 따른 배포 보안을 추적합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"^] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"^] 비정상적인 활동을 사전에 감지하여 경고합니다.
+ONTAP 환경의 새로운 패널 _ 은(는) 에 따라 배포가 얼마나 안전한지 추적하는 ONTAP 시스템의 특정 설정 상태를 제공합니다 https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["ONTAP 시스템에 대한 NetApp 보안 강화 가이드 를 참조하십시오"^] 로 이동합니다 https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["ONTAP의 랜섬웨어 방지 기능"^] 비정상적인 활동을 사전에 감지하여 경고합니다.
 
 권장사항을 검토한 후 잠재적 문제를 어떤 방식으로 해결할 것인지 결정할 수 있습니다. 다음 단계에 따라 클러스터의 설정을 변경하거나, 변경 사항을 다른 시간으로 연기하거나, 제안을 무시할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-ontap-systems-hardening["자세한 내용을 보려면 여기를 클릭하십시오"].
 
@@ -32,7 +54,7 @@ summary: 랜섬웨어 차단의 새로운 기능에 대해 알아보십시오.
 
 === 클라우드 백업을 사용하여 다양한 범주의 데이터를 보호하는 방법을 보여주는 새로운 패널입니다.
 
-이 새로운 "백업 상태" 패널은 랜섬웨어 공격으로 인해 복구해야 할 경우에 대비하여 가장 중요한 데이터 범주를 포괄적으로 백업하는 방법을 보여줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
+이 새로운 _Backup Status_패널에서는 랜섬웨어 공격으로 인해 복구해야 할 경우 가장 중요한 데이터 범주가 얼마나 포괄적으로 백업되는지 보여 줍니다. 이 데이터는 환경에서 Cloud Backup에 의해 백업된 특정 범주의 항목 수를 시각적으로 나타냅니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#backup-status-of-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 
 
@@ -42,7 +64,7 @@ summary: 랜섬웨어 차단의 새로운 기능에 대해 알아보십시오.
 
 === 비즈니스 크리티컬 데이터의 사용 권한 상태를 추적할 수 있는 새 패널입니다
 
-새로운 "비즈니스 크리티컬 데이터 사용 권한 분석" 패널은 비즈니스에 중요한 데이터의 사용 권한 상태를 보여줍니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
+새로운 PANEL_Business Critical data permissions analysis_는 비즈니스에 중요한 데이터의 사용 권한 상태를 표시합니다. 이를 통해 비즈니스 크리티컬 데이터를 얼마나 잘 보호하고 있는지 빠르게 평가할 수 있습니다. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#status-of-permissions-on-your-critical-business-data["자세한 내용을 보려면 여기를 클릭하십시오"].
 
 
 
@@ -60,4 +82,4 @@ summary: 랜섬웨어 차단의 새로운 기능에 대해 알아보십시오.
 
 새로운 랜섬웨어 보호 서비스를 통해 사이버 보안에 대한 관련 정보를 확인하고 데이터가 사이버 공격에 얼마나 복원되는지 평가할 수 있습니다. 또한 알림 목록과 데이터 보안 개선을 위한 해결 방법도 제공합니다.
 
-https://docs.netapp.com/us-en/cloud-manager-ransomware/concept-ransomware-protection.html["이 새로운 서비스에 대해 자세히 알아보십시오"].
+link:concept-ransomware-protection.html["이 새로운 서비스에 대해 자세히 알아보십시오"].
